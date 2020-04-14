@@ -1,0 +1,190 @@
+header{
+    position: sticky;
+    top: 1px;
+    left: 0;
+    right: 0;
+    width: 100%;    
+}
+body{
+    margin: 0 !important;
+
+}
+
+
+#logo{
+    background-color:white;
+    width: 40%;
+    height: 15%;
+    position: relative;
+    float: left;
+    right: 0;
+    margin: 0;
+    
+}
+#menu{
+    background-color:white;
+    
+    font-family: 'Gilory', sans-serif;
+    text-align: center;
+
+    width: 45%;
+    height: 15%;
+    float: left;
+    position: relative;
+    right: 0;
+    margin: 0;
+    
+    
+}
+
+ h2{
+    color: black;
+     width: 30%;
+     float: left;
+ }
+
+
+
+ a:hover {
+    font-size: large;
+    color:rgb(185, 51, 96);
+    width: 90%;
+  }
+
+
+
+
+ #social_media{
+    background-color:white;
+     float: right;
+     width: 15%;
+     height: 15%;
+ }
+ .foto_index{
+
+    object-fit: contain;
+    right: 0;
+    margin: 0;
+    
+
+ }
+ .container {
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+    position: relative;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+            transform: translateY(-50%) translateX(-50%);
+    top: 70%;
+    left: 50%;
+  }
+
+  .block {
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+  }
+  .block .citation {
+    font-size: 23px;
+    line-height: 35px;
+  }
+  .block .author {
+    font-family: 'Gilory Light', sans-serif;
+    color: #838eca;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    line-height: 35px;
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  
+  .fourth .author {
+    opacity: 0;
+    color: #bf1f5d;
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+  }
+  .fourth:hover .citation {
+    opacity: 0;
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+  }
+  .fourth:hover .author {
+    opacity: 1;
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  
+ footer{
+     right: 10%;
+     left:10%;
+     height: 15%;
+     font-family: 'Gilory', sans-serif;
+     text-align: center;
+     color: black
+ }
+ #mail{
+    height: 15%;
+     width: 50%;
+     float: left;
+ }
+
+ #telefon{
+    height: 15%;
+    width: 50%;
+    float: left;
+ }
+
+ .foto{
+     
+     padding: 5%;
+ }
+
+ #onas_tlo
+    { 
+        background-image: url("pictures/tlo2.jpg" );
+     }
+
+#caloskoncerty{
+    background-image: url("pictures/tlo3.jpg" );
+}  
+     
+.tekst{
+    background-color:rgba(173, 75, 152, 0.281);
+    padding: 15%;
+    height: 90%;
+    width: 70%;
+}
+ .srodek{
+     margin-top: 10%;
+     background-color:rgba(240, 228, 237, 0.774);
+     padding: 3%;
+     height: 90%;
+     width: 98%;
+ }
+
+
+
+ .rectangle2{
+    font-family: 'Bellota Text', cursive;
+    font-size:17px;
+    text-align: center;
+    color:gray;
+    padding: 2%;
+
+}
+
+ table{
+     margin-top: 5%;
+     font-family: 'Gilory Light', sans-serif;
+     text-align: center;
+ }
+
+ tr{
+     padding: 20px;
+     height: 200px;
+     width: 2000px;
+ }
