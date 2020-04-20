@@ -39,8 +39,10 @@ body{
 
  h2{
     color: black;
-     width: 30%;
+     width: 20%;
      float: left;
+     font-family: 'Gilory', sans-serif;
+     text-align: center;
  }
 
 
@@ -99,7 +101,10 @@ body{
             transform: translateY(-50px);
     opacity: 0;
   }
-
+.fourth{
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
   
   .fourth .author {
     opacity: 0;
@@ -148,21 +153,49 @@ body{
         background-image: url("pictures/tlo2.jpg" );
      }
 
-#caloskoncerty{
-    background-image: url("pictures/tlo3.jpg" );
+     #caloskoncerty{
+        background-image: url("pictures/tlo3.jpg" );
+    }  
+
+#caloskontakt{
+
+    background-image: url("pictures/tlo1.jpg" );
+
+  
 }  
+#srodek_koncert{
+    margin-top: 1%;
+    margin-bottom: 3%;
+    background-color:rgba(240, 228, 237, 0.804);
+    padding: 1%;
+    height: 100%;
+    width: 98%;
+}
      
 .tekst{
     background-color:rgba(173, 75, 152, 0.281);
-    padding: 15%;
-    height: 90%;
-    width: 70%;
+    padding-top: 12%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 10%;
+    height: 100%;
+    widows: 70%;
+}
+.opacity{
+    background-color:rgba(173, 75, 152, 0.281);
+    padding-top: 12%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 10%;
+    height: 2000px;
+    widows: 1357px;
 }
  .srodek{
-     margin-top: 10%;
-     background-color:rgba(240, 228, 237, 0.774);
+     margin-top: 3%;
+     margin-bottom: 3%;
+     background-color:rgba(240, 228, 237, 0.804);
      padding: 3%;
-     height: 90%;
+     height: 100%;
      width: 98%;
  }
 
@@ -178,13 +211,33 @@ body{
 }
 
  table{
+     
      margin-top: 5%;
-     font-family: 'Gilory Light', sans-serif;
+     margin-left: 15%;
+     margin-right: 15%;
+     font-family: 'Gilory', sans-serif;
      text-align: center;
+     width: 70%;
+    
  }
 
  tr{
+  
+     font-family: 'Gilory', sans-serif;
+     position: relative;
+     text-align: center;
      padding: 20px;
      height: 200px;
-     width: 2000px;
+    
+ }
+
+ #article{
+    white-space: pre-wrap;
+    font-family: 'Arial', sans-serif;
+    
+ }
+
+ #sdm{
+     
+    background-image: url(pictures/koncert_sdm.png);
  }
