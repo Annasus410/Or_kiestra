@@ -75,7 +75,8 @@ body{
     position: relative;
     -webkit-transform: translateY(-50%) translateX(-50%);
             transform: translateY(-50%) translateX(-50%);
-    top: 70%;
+    top: 50%;
+    bottom: 50%;
     left: 50%;
   }
 
@@ -86,8 +87,9 @@ body{
     font-family: "Roboto", sans-serif;
   }
   .block .citation {
+     
     font-size: 20px;
-    line-height: 35px;
+    line-height: 100px;
   }
   .block .author {
     font-family: 'Gilory Light', sans-serif;
@@ -96,25 +98,25 @@ body{
     font-size: 10px;
     letter-spacing: 2px;
     line-height: 35px;
-    -webkit-transform: translateY(-50px);
-            transform: translateY(-50px);
+    -webkit-transform: translateY(-25px);
+            transform: translateY(-25px);
     opacity: 0;
   }
 .fourth{
     margin-top: 3%;
-    margin-bottom: 4%;
+    margin-bottom: 3%;
 }
   
   .fourth .author {
     opacity: 0;
     color: #bf1f5d;
-    -webkit-transform: translateY(-50px);
-            transform: translateY(-50px);
+    -webkit-transform: translateY(-25px);
+            transform: translateY(-25px);
   }
   .fourth:hover .citation {
     opacity: 0;
-    -webkit-transform: translateY(10px);
-            transform: translateY(10px);
+    -webkit-transform: translateY(25px);
+            transform: translateY(25px);
   }
   .fourth:hover .author {
     opacity: 1;
@@ -201,7 +203,7 @@ body{
 
 
  .rectangle2{
-    font-family: 'Gilory', sans-serif;
+    font-family: 'Bellota Text', cursive;
     font-size:17px;
     text-align: center;
     color:gray;
@@ -236,7 +238,7 @@ body{
     position: relative;
     white-space: pre-wrap;
     font-family: 'Arial', sans-serif;
-
+    font-size: 30px;
     
  }
 
