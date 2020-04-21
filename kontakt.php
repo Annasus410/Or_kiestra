@@ -55,8 +55,57 @@
                 </div>
             </div>
 
-        </header>
 
+        </header>
+        <div id="caloskontakt">
+
+            <div class="tekst">
+                <div class="srodek">
+                    <h1>Chcesz się z nami skontaktować?</h1>
+                    <br>
+                    <h1>Wyślij do nas wiadomość poprzez poniższy formularz!</h1>
+                    <?php
+
+                    if(isset($_POST["imie"]) ){
+                        $imie = $_POST["imie"];
+                        $nazwisko = $_POST["nazwisko"];
+                        $tekst = $_POST["tekst"];
+                        $email = $_POST["email"];
+                    
+                    if( empty( $imie ) || empty($nazwisko) || empty($tekst) || empty($email)){
+                        echo "Uzupełnij wszystkie pola";
+                    } else{
+
+                        $conn = new mysqli("wierzba.wzks.uj.edu.pl", "17_sus", "L4r6r1c2g4", "17_sus");
+                        $odp = $conn->query("INSERT INTO wiadomosci(imie, nazwisko, tekst, email) VALUES ('$imie', '$nazwisko', '$tekst', '$email')");
+                    
+                        if($odp){
+                            echo "Wysłano";
+                        }
+                        else{
+                            echo "Nie udało się wysłać wiadomości";
+                        }
+                        $conn->close();
+                    }
+
+                    }
+                    ?>
+                    <form method="POST" action="kontakt.php">
+
+                    Imię: <input name="imie" type="text"><br>
+                    Nazwisko: <input name="nazwisko" type="text"> <br>
+                    Treść wiadomości: <textarea name="tekst"></textarea><br>
+                    E-mail: <input name "email" type="email"><br>
+
+                    
+                    <button type="button" class="btn btn-light">Wyślij</button>
+                </form>
+
+
+                    
+                </div>
+            </div>
+            
 
         <footer>
             <div id="mail">

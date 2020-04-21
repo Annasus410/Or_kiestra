@@ -192,13 +192,22 @@ body{
     widows: 1357px;
 }
  .srodek{
-     margin-top: 3%;
+     margin-top: -3%;
      margin-bottom: 3%;
      background-color:rgba(240, 228, 237, 0.804);
      padding: 3%;
      height: 100%;
      width: 98%;
+     font-family: 'Gilory', sans-serif;
+     
  }
+
+ form{
+     text-align: center;
+     position: relative;
+     
+ 
+    }
 
 
 
