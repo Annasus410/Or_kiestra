@@ -86,7 +86,7 @@ body{
     font-family: "Roboto", sans-serif;
   }
   .block .citation {
-    font-size: 23px;
+    font-size: 20px;
     line-height: 35px;
   }
   .block .author {
@@ -201,7 +201,7 @@ body{
 
 
  .rectangle2{
-    font-family: 'Bellota Text', cursive;
+    font-family: 'Gilory', sans-serif;
     font-size:17px;
     text-align: center;
     color:gray;
