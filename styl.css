@@ -46,12 +46,11 @@ body{
  }
 
 
-
+/* 
  a:hover {
     font-size: large;
-    color:rgb(185, 51, 96);
     width: 90%;
-  }
+  } */
 
 
 
@@ -231,9 +230,13 @@ body{
     
  }
 
- #article{
+ #article
+ {
+     margin-top: -3%;
+    position: relative;
     white-space: pre-wrap;
     font-family: 'Arial', sans-serif;
+
     
  }
 
