@@ -185,8 +185,8 @@ body{
 .opacity{
     background-color:rgba(173, 75, 152, 0.281);
     padding-top: 12%;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-bottom: 10%;
     height: 3800px;
     widows: 1357px;
@@ -288,4 +288,43 @@ body{
 #krakow_uj_2018{
     
     background-image: url(pictures/mimo_wszystko.jpg);
+}
+#one_heart_festiwal{
+    background-image: url(pictures/one_heart_festiwal.jpg);
+}
+#patriotyczny{
+    background-image: url(pictures/patriotyczny.jpg);
+
+}
+#garda_1{
+    background-image: url(pictures/grudzien_2019.jpg);
+
+}
+#garda_2{
+    background-image: url(pictures/maj_2019.jpg);
+
+}
+#krakow_uj_2019{
+    background-image: url(pictures/czerwiec_2019.jpg);
+
+}
+#krakow_styczen_2020{
+    background-image: url(pictures/styczen_2020.jpg);
+}
+
+#nowy_sacz_marzec{
+    background-image: url(pictures/marzec_2020.jpg);
+
+}
+#ksiezniczka{
+    background-image: url(pictures/ksiezniczka.jpg);
+
+}
+#wirus{
+    background-image: url(pictures/wirus.jpg);
+
+}
+#rmf{
+    background-image: url(pictures/rmf.jpg);
+
 }
