@@ -64,9 +64,10 @@
                     <h1>Chcesz się z nami skontaktować?</h1>
                     <br>
                     <h1>Wyślij do nas wiadomość poprzez poniższy formularz!</h1>
+
                     <?php
 
-                    if(isset($_POST["imie"]) ){
+                    if( isset($_POST["imie"]) ){
                         $imie = $_POST["imie"];
                         $nazwisko = $_POST["nazwisko"];
                         $tekst = $_POST["tekst"];
@@ -81,8 +82,7 @@
                     
                         if($odp){
                             echo "Wysłano";
-                        }
-                        else{
+                        }else{
                             echo "Nie udało się wysłać wiadomości";
                         }
                         $conn->close();

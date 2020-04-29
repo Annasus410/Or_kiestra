@@ -188,7 +188,7 @@ body{
     padding-left: 15%;
     padding-right: 15%;
     padding-bottom: 10%;
-    height: 2000px;
+    height: 3800px;
     widows: 1357px;
 }
  .srodek{
@@ -204,7 +204,7 @@ body{
 
  form{
      text-align: center;
-     position: relative;
+     
      
  
     }
@@ -226,24 +226,37 @@ body{
      margin-left: 15%;
      margin-right: 15%;
      font-family: 'Gilory', sans-serif;
+     font-weight: 600;
      text-align: center;
      width: 70%;
+     
     
  }
 
+
  tr{
-  
+ 
      font-family: 'Gilory', sans-serif;
      position: relative;
      text-align: center;
-     padding: 20px;
      height: 200px;
+     
+    
+ }
+ td{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
     
  }
 
+   
+
  #article
  {
-     margin-top: -3%;
+    margin-top: -7%;
     position: relative;
     white-space: pre-wrap;
     font-family: 'Arial', sans-serif;
@@ -254,4 +267,25 @@ body{
  #sdm{
      
     background-image: url(pictures/koncert_sdm.png);
+   
  }
+
+ #fmt{
+     
+    background-image: url(pictures/fmt.jpg);
+ }
+ #kato{
+     
+    background-image: url(pictures/kato.jpg);
+}
+#sadecki_diament{
+     
+    background-image: url(pictures/sadecki_diament.jpg);
+}
+#galowy{
+    background-image: url(pictures/nowy_sacz_styczen.jpg);
+}
+#krakow_uj_2018{
+    
+    background-image: url(pictures/mimo_wszystko.jpg);
+}
