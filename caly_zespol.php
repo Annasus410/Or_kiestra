@@ -64,7 +64,7 @@
 
                     if ($wynik->num_rows > 0) {
                         while ($wiersz = $wynik->fetch_assoc()) {
-                            echo $wiersz["imię"] . "; ";
+                            echo $wiersz["imie"] . "; ";
                             echo $wiersz["nazwisko"] . ";<br>";
                         }
                     } else {
@@ -73,6 +73,7 @@
 
 
                     $conn->close();
+
                     ?>
 
                 </div>

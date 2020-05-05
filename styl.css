@@ -376,9 +376,9 @@ body{
     background: no-repeat center / cover;
     border: 3px solid #737c85;
     display: inline-block;
-    height: 120px;
-    margin: 5px;
-    width: 120px;
+    height: 60%;
+    margin:5%;
+    width: 60%;
   }
   
   .gallery-content a:hover {
