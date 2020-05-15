@@ -38,7 +38,7 @@
                     </a>
 
                     <a href="o_serwisie.html">
-                        <h2 id="kontakt">O&nbspserwisie</h2>
+                        <h2 id="oserwisie">O&nbspserwisie</h2>
                     </a>
                 </div>
                 <div id="social_media">
