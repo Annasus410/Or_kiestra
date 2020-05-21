@@ -104,6 +104,13 @@ body{
      font-family: 'Gilory', sans-serif;
      text-align: center;
  }
+ @media(max-width: 600px){
+  h2{
+    font-size: 15px;
+    margin:3%;
+    width:auto;
+  }
+ }
 
 
 
@@ -169,6 +176,7 @@ body{
   }
 }
  footer{
+   margin-top: 1%;
      right: 10%;
      left:10%;
      height: auto;
@@ -182,12 +190,36 @@ body{
      width: 50%;
      float: left;
  }
+ @media(max-width:900px){
+   #mail h3{
+     font-size: 14px;
+   }
+ }
+ @media(max-width:400px){
+  #mail {
+    width: 100%;
+    display: inline-block;
+
+  }
+}
 
  #telefon{
     height: 15%;
     width: 50%;
     float: left;
  }
+ @media(max-width:400px){
+  #telefon {
+    width: 100%;
+    display: inline-block;
+
+  }
+}
+ @media(max-width:900px){
+  #telefon h3{
+    font-size: 14px;
+  }
+}
 
  .foto{
      
@@ -366,8 +398,47 @@ margin: 2%;
 }
  
 #dyrygent{
-  height: 70%;
+  margin-bottom: 3%;
+  height: 30%;
 }
+@media(max-width: 1515px){
+  #dyrygent {
+    height: 35%;
+  }
+}
+@media(max-width: 1375px){
+  #dyrygent {
+    height: 40%;
+  }
+}
+
+.naglowek{
+  margin-top: -2%;
+}
+
+#wokale{
+  margin-top:3%;
+  height:auto;
+}
+
+#smyczki{
+  margin-top:3%;
+  height:auto;
+}
+
+#flety{
+  margin-top:3%;
+  height:auto;
+}
+#sekcja{
+  margin-top:3%;
+  height:auto;
+}
+
+#pomoc{
+  margin-top:3%;
+  height:auto;
+} 
    
 .caloscsdm{
     background-image: url("pictures/tlo4.jpg" );
@@ -490,13 +561,10 @@ p{
    background-color:rgba(240, 228, 237, 0.804);
    padding: 3%;
    width: 98%;
- 
-
-   
- 
    font-family: 'Gilory', sans-serif;
    
 }
+
 
 #galeria_koncert2{
   display: inline-block;
@@ -961,6 +1029,7 @@ p{
   .citation{
     font-family: 'Gilory', sans-serif;
     text-align: center;
+    position: relative;
   }
   @media(max-width:900px){
     .citation{
@@ -984,3 +1053,42 @@ p{
   padding-bottom: 0%;
 
 }
+@media(max-width:900px){
+  #zobacz img{
+     width: 30%;
+height: auto;   
+  }
+}
+@media(max-width:700px){
+  #zobacz img{
+     width: 50%;
+height: auto;   
+  }
+}
+
+h1{
+  margin-left: 25%;
+  margin-right: 25%;
+  font-size: 20px;
+}
+@media(max-width: 600px){
+  h1{
+    font-size: 15px;
+    margin:3%;
+    width:auto;
+  }
+ }
+
+input{
+  width: 40%;
+  margin-top: 1%;
+  margin-right: 35%;
+  margin-left: 35%;
+}
+textarea{
+  margin-top: 1%;
+  margin-right: 35%;
+  margin-left: 35%;
+  width: 40%;
+}
+

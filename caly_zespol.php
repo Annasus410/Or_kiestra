@@ -29,7 +29,7 @@
 
 
                     <a href="onas.html">
-                        <h2 id="onas">O nas</h2>
+                        <h2 id="onas">O&nbspnas</h2>
                     </a>
 
 
@@ -55,37 +55,154 @@
         <div id="calosc_zespol">
 
             <div class="tekst">
-                <div class="srodek">
-
-                    <?php
-                    $conn = new mysqli("localhost", "17_sus", "L4r6r1c2g4", "17_sus") or die("Błąd");
-
-                    $wynik = $conn->query("SELECT * FROM sklad_zespolu");
-
-                    if ($wynik->num_rows > 0) {
-                        while ($wiersz = $wynik->fetch_assoc()) {
-                            echo $wiersz["imie"] . "; ";
-                            echo $wiersz["nazwisko"] . ";<br>";
-                        }
-                    } else {
-                        echo "Pusta baza";
-                    }
-
-
-                    $conn->close();
-
-                    ?>
-
+                <div id="dyrygent" class="srodek">
+                    <div class="left">
+                        <h2>Dyrygentka:&nbspJustyna&nbspZawiślan</h2>
+                    </div>
+                    <div>
+                        <img src="pictures/sklad/justyna.jpg">
+                    </div>
                 </div>
+                <div id="wokale" class="srodek">
+                    <div class="naglowek">
+                        <h2>Wokale:</h2><br>
+                        <p>
+                            <?php
+                            $conn = new mysqli("localhost", "17_sus", "L4r6r1c2g4", "17_sus") or die("Błąd");
+
+                            $wynik = $conn->query("SELECT * FROM wokal");
+
+                            if ($wynik->num_rows > 0) {
+                                while ($wiersz = $wynik->fetch_assoc()) {
+                                    echo $wiersz["imie"] . " ";
+                                    echo $wiersz["nazwisko"] . ", ";
+                                }
+                            } else {
+                                echo "Pusta baza";
+                            }
+
+
+                            $conn->close();
+
+                            ?>
+                        </p>
+                    </div>
+                </div>
+                <div id="smyczki" class="srodek">
+                    <div class="naglowek">
+                        <h2>Smyczki:</h2><br>
+                        <p>
+                            <?php
+                            $conn = new mysqli("localhost", "17_sus", "L4r6r1c2g4", "17_sus") or die("Błąd");
+
+                            $wynik = $conn->query("SELECT * FROM smyczek");
+
+                            if ($wynik->num_rows > 0) {
+                                while ($wiersz = $wynik->fetch_assoc()) {
+                                    echo $wiersz["imie"] . " ";
+                                    echo $wiersz["nazwisko"] . ", ";
+                                }
+                            } else {
+                                echo "Pusta baza";
+                            }
+
+
+                            $conn->close();
+
+                            ?>
+                        </p>
+                    </div>
+                </div>
+                <div id="flety" class="srodek">
+                    <div class="naglowek">
+                        <h2>Flety:</h2><br>
+                        <p>
+                            <?php
+                            $conn = new mysqli("localhost", "17_sus", "L4r6r1c2g4", "17_sus") or die("Błąd");
+
+                            $wynik = $conn->query("SELECT * FROM flet");
+
+                            if ($wynik->num_rows > 0) {
+                                while ($wiersz = $wynik->fetch_assoc()) {
+                                    echo $wiersz["imie"] . " ";
+                                    echo $wiersz["nazwisko"] . ", ";
+                                }
+                            } else {
+                                echo "Pusta baza";
+                            }
+
+
+                            $conn->close();
+
+                            ?>
+                        </p>
+                    </div>
+                </div>
+                <div id="sekcja" class="srodek">
+                    <div class="naglowek">
+                        <h2>Sekcja rytmiczna:</h2><br>
+                        <p>
+                            <?php
+                            $conn = new mysqli("localhost", "17_sus", "L4r6r1c2g4", "17_sus") or die("Błąd");
+
+                            $wynik = $conn->query("SELECT * FROM sekcja_rytmiczna");
+
+                            if ($wynik->num_rows > 0) {
+                                while ($wiersz = $wynik->fetch_assoc()) {
+                                    echo $wiersz["imie"] . " ";
+                                    echo $wiersz["nazwisko"] . ", ";
+                                }
+                            } else {
+                                echo "Pusta baza";
+                            }
+
+
+                            $conn->close();
+
+                            ?>
+                        </p>
+                    </div>
+                </div>
+                <div id="pomoc" class="srodek">
+                    <div class="naglowek">
+                        <h2>Pomoc:</h2>
+                        <br>
+                        <p>
+                            <?php
+                            $conn = new mysqli("localhost", "17_sus", "L4r6r1c2g4", "17_sus") or die("Błąd");
+
+                            $wynik = $conn->query("SELECT * FROM pomoc_zewnetrzna");
+
+                            if ($wynik->num_rows > 0) {
+                                while ($wiersz = $wynik->fetch_assoc()) {
+                                    echo $wiersz["imie"] . " ";
+                                    echo $wiersz["nazwisko"] . ", ";
+                                }
+                            } else {
+                                echo "Pusta baza";
+                            }
+
+
+                            $conn->close();
+
+                            ?>
+                        </p>
+
+                    </div>
+                </div>
+
+
+
+
             </div>
-
         </div>
-        <footer>
+    </div>
+    <footer>
 
 
-            <div class="rectangle2">2020 &copy; Anna Sus</div>
+        <div class="rectangle2">2020 &copy; Anna Sus</div>
 
-        </footer>
+    </footer>
 
 </body>
 
