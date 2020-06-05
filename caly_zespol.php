@@ -41,6 +41,10 @@
                         <h2 id="kontakt">Kontakt</h2>
                     </a>
 
+                    <a href="o_serwisie.html">
+                        <h2 id="o_serwisie">O&nbspserwisie</h2>
+                    </a>
+
 
                 </div>
                 <div id="social_media">

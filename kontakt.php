@@ -53,7 +53,7 @@
         <div id="caloskontakt">
 
             <div class="tekst">
-                <div class="srodek">
+                <div class="srodek" style="padding-top: 7%">
                     <h1>Chcesz się z nami skontaktować?</h1>
                     <br>
                     <h1>Wyślij do nas wiadomość poprzez poniższy formularz!</h1>
@@ -62,22 +62,22 @@
                     if (isset($_POST["imie"])) {
                         $imie = $_POST["imie"];
                         $nazwisko = $_POST["nazwisko"];
-                        $email = $_POST["email"];
-                        $tekst = $_POST["tekst"];
+                        $email = $_POST["tekst"];
+                        $tekst = $_POST["email"];
 
 
-                        if (empty($imie) || empty($nazwisko) || empty($email) || empty($tekst)) {
+                        if (empty($imie) || empty($nazwisko) || empty($tekst) || empty($email)) {
                             echo "<span id='wypelnij'>" . "Wypełnij wszystkie pola!" . "</span>";
                         } else {
 
                             $conn = new mysqli("localhost", "17_sus", "L4r6r1c2g4", "17_sus");
 
-                            $odp = $conn->query("INSERT INTO kontakt(imie, nazwisko, email, tekst) VALUES ('$imie', '$nazwisko', '$email','$tekst')");
+                            $odp = $conn->query("INSERT INTO wiadomosci(imie, nazwisko, tekst, email) VALUES ('$imie', '$nazwisko', '$tekst','$email')");
 
                             if ($odp) {
-                                echo "<span id='wyslane'>" . "Wysłano" . "</span>";
+                                echo "<span id='wyslane'>" . "Wysłano!" . "</span>";
                             } else {
-                                echo "<span id='blad'>" . "Nie udało się wysłać wiadomości" . "</span>";
+                                echo "<span id='blad'>" . "Nie udało się wysłać wiadomości!" . "</span>";
                             }
                             $conn->close();
                         }
@@ -88,38 +88,44 @@
                         <form method="POST" action="kontakt.php">
                             <label>Imię</label>
                             <input name="imie" type="text" id="imie">
+                            <br>
                             <label>Nazwisko</label>
                             <input name="nazwisko" type="text" id="nazwisko">
-                            <label>E-mail</label>
-                            <input name="email" type="email" id="email">
+                            <br>
                             <label>Wiadomość</label>
                             <textarea name="tekst" placeholder="Napisz wiadomość"></textarea><br>
+
+                            <br><label>E-mail</label>
+                            <input name="email" type="email" id="email">
                             <input type="submit" name="wyslij" id="submit" value="Wyślij">
                         </form>
                     </div>
 
                 </div>
+
+                </p>
+            </div>
+        </div>
+
+
+        <footer>
+            <div id="mail">
+                <h3>or_kiestra@gmail.com</h2>
+
+                    <img src="pictures/email2.jpg" alt="ikona_maila">
+
+            </div>
+            <div id="telefon">
+                <h3>543-132-928</h2>
+                    <img src="pictures/telefon2.png" alt="ikona">
+
             </div>
 
 
-            <footer>
-                <div id="mail">
-                    <h3>or_kiestra@gmail.com</h2>
-
-                        <img src="pictures/email2.jpg" alt="ikona_maila">
-
-                </div>
-                <div id="telefon">
-                    <h3>543-132-928</h2>
-                        <img src="pictures/telefon2.png" alt="ikona">
-
-                </div>
 
 
-
-
-            </footer>
-        </div>
+        </footer>
+    </div>
 </body>
 
 </html>

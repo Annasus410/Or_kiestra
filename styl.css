@@ -21,7 +21,7 @@ body{
     right: 0;
     margin: 0; 
 }
-@media(max-width: 1515px)
+@media(max-width: 1300px)
 {#logo{
   width: 100%;
 }
@@ -48,20 +48,13 @@ body{
     margin: 0;
      
 }
-@media(max-width: 1515px)
-{
-  #menu{
-    width: 85%;
-    height: 6%;
-    font-size:16px;
-  }
-}
 
-@media(max-width: 1515px)
+
+@media(max-width: 1300px)
 {
   #menu{
     width: 85%;
-    height: 8%;
+    height: 10%;
     font-size: 14px;
   }
 }
@@ -126,7 +119,7 @@ body{
 
 
  
- @media(max-width: 1515px)
+ @media(max-width: 1300px)
 {
   #social_media{
   
@@ -258,10 +251,17 @@ body{
     padding: 1%;
     width: 98%;
 }
+@media(max-width: 450px)
+{
+  #srodek_koncert{
+    width: 120%;
+   
+  }
+}
 
 
  #koncert1{
-    height: 70%;
+    height: 75%;
     
  }
  @media(max-width: 1275px)
@@ -281,14 +281,14 @@ body{
   }
 }
 #koncert_pazdiernik{
-  height: 68%;
+  height: 75%;
 }
 
 
  @media(max-width: 1300px)
 {
   #koncert_pazdiernik{
-    height: 105%;
+    height: 115%;
    
   }
 }
@@ -296,7 +296,7 @@ body{
 @media(max-width: 900px)
 {
   #koncert_pazdiernik{
-    height: 105%;
+    height: 115%;
    
   }
 }
@@ -308,33 +308,8 @@ body{
   }
 }
 
-#koncert1{
-  height: 70%;
- 
-}
 
-@media(max-width: 1300px)
-{
-  #koncert1{
-    height: 95%;
-   
-  }
-}
 
-@media(max-width: 900px)
-{
-  #koncert1{
-    height: 85%;
-   
-  }
-}
-@media(max-width: 760px)
-{
-  #koncert1{
-    height:95%;
-   
-  }
-}
 
 iframe{
 width: 560px;
@@ -411,7 +386,13 @@ margin: 2%;
     height: 40%;
   }
 }
-
+#dyrygent img{
+  margin-right: 5%;
+margin-top: -3%;
+ float: right;
+ width: 25%;
+ height: auto;
+}
 .naglowek{
   margin-top: -2%;
 }
@@ -434,6 +415,8 @@ margin: 2%;
   margin-top:3%;
   height:auto;
 }
+
+
 
 #pomoc{
   margin-top:3%;
@@ -1082,13 +1065,28 @@ h1{
 input{
   width: 40%;
   margin-top: 1%;
-  margin-right: 35%;
-  margin-left: 35%;
+  margin-right: 12%;
+  margin-left: 12%;
 }
 textarea{
   margin-top: 1%;
-  margin-right: 35%;
-  margin-left: 35%;
+  margin-right: 12%;
+  margin-left: 12%;
   width: 40%;
+}
+
+#wyslane{
+  text-align: center;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+#blad{
+  text-align: center;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+#wypelnij{
+  margin-left: 40%;
+  margin-right: 40%;
 }
 
