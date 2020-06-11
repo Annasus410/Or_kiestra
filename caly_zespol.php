@@ -17,7 +17,8 @@
         <header>
             <div id="top">
                 <div id="logo">
-                    <img src=pictures/OR_kiestra.png height="100%">
+                    <a href="index.html">
+                        <img src=pictures/OR_kiestra.png height="100%"></a>
                 </div>
                 <div id="menu">
                     <link href="https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300&display=swap" rel="stylesheet">
@@ -63,7 +64,7 @@
                     <div class="left">
                         <h2>Dyrygentka:&nbspJustyna&nbspZawiślan</h2>
                     </div>
-                    <div>
+                    <div style="margin-top:1%;">
                         <img src="pictures/sklad/justyna.jpg">
                     </div>
                 </div>

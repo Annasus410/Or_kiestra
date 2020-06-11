@@ -16,8 +16,8 @@
     <div id="calosc">
         <header>
             <div id="top">
-                <div id="logo">
-                    <img src=pictures/OR_kiestra.png height="100%">
+                <div id="logo"><a href="index.html">
+                        <img src=pictures/OR_kiestra.png height="100%"></a>
                 </div>
                 <div id="menu">
                     <a href="index.html">
@@ -53,7 +53,8 @@
         <div id="caloskontakt">
 
             <div class="tekst">
-                <div class="srodek" style="padding-top: 7%">
+                <div class="srodek" id="naglowek_kontakt">
+
                     <h1>Chcesz się z nami skontaktować?</h1>
                     <br>
                     <h1>Wyślij do nas wiadomość poprzez poniższy formularz!</h1>
@@ -86,17 +87,17 @@
                     ?>
                     <div class="formularz">
                         <form method="POST" action="kontakt.php">
-                            <label>Imię</label>
-                            <input name="imie" type="text" id="imie">
+
+                            <input name="imie" placeholder="Wpisz swoje imię" type="text" id="imie">
                             <br>
-                            <label>Nazwisko</label>
-                            <input name="nazwisko" type="text" id="nazwisko">
+
+                            <input name="nazwisko" placeholder="Wpisz swoje nazwisko" type="text" id="nazwisko">
                             <br>
-                            <label>Wiadomość</label>
+
                             <textarea name="tekst" placeholder="Napisz wiadomość"></textarea><br>
 
-                            <br><label>E-mail</label>
-                            <input name="email" type="email" id="email">
+
+                            <input name="email" placeholder="Wpisz swój e-mail" type="email" id="email">
                             <input type="submit" name="wyslij" id="submit" value="Wyślij">
                         </form>
                     </div>

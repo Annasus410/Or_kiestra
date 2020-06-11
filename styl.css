@@ -123,7 +123,7 @@ body{
 {
   #social_media{
   
-  height: 8%;
+  height: 10%;
   }
 }
 
@@ -1050,8 +1050,8 @@ height: auto;
 }
 
 h1{
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 12%;
+  margin-right: 12%;
   font-size: 20px;
 }
 @media(max-width: 600px){
@@ -1063,18 +1063,23 @@ h1{
  }
 
 input{
-  width: 40%;
+  float: left;
+  width: 30%;
   margin-top: 1%;
   margin-right: 12%;
   margin-left: 12%;
 }
 textarea{
+  float: left;
   margin-top: 1%;
   margin-right: 12%;
   margin-left: 12%;
-  width: 40%;
+  width: 30%;
 }
 
+#submit{
+  width: 10%;
+}
 #wyslane{
   text-align: center;
   margin-left: 40%;
